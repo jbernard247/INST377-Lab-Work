@@ -130,7 +130,6 @@
 
   .carousel .carousel_item--visible {
     display: block;
-    justify-content: space-between;
 
   }
 
