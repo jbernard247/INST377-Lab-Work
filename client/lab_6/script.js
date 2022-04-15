@@ -11,6 +11,8 @@ async function mainEvent() { // the async keyword means we can make API requests
       console.table(arrayFromJson.data); // this is called "dot notation"
       // arrayFromJson.data - we're accessing a key called 'data' on the returned object
       // it contains all 1,000 records we need
+
+      // updating with CSS
       const root = document.documentElement;
       root.addEventListener('mousemove', () => {
         root.style.setProperty('display');
@@ -21,6 +23,7 @@ async function mainEvent() { // the async keyword means we can make API requests
   root2.addEventListener('mousemove', () => {
     root2.style.setProperty('display');
   });
+  dataHandler.push(math.random() * 15);
 }
 dataHandler();
 // this actually runs first! It's calling the function above
