@@ -131,8 +131,10 @@
         display: none;
         
       }
-      :root2 {
-        display: block;
+    
+    :root2 {
+      display: block;
         
       }
+  
   }
